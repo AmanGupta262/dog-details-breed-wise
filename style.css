@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+.container{
+    padding: 1rem 3rem;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.form, .result{
+    width:100%;
+}
+.form{
+    background: linear-gradient(to right, #EFFFFE, #FFFAF0);
+    padding: 2rem;
+
+}
+.btn, select{
+    padding: 0.8rem;
+}
+select{
+    width: 30rem;
+}
+.image-container{
+    width: 20rem;
+    height: 20rem;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+select:hover,
+select:focus,
+.btn:hover,
+.btn:focus{
+    cursor: pointer;
+}
